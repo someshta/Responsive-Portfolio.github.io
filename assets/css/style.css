@@ -1,0 +1,110 @@
+* {
+	box-sizing: border-box;
+}
+
+.masthead {
+	width: 100%;
+	height: 150px;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.head {
+	
+	height: 100px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+#name {
+	width: 250px;
+	height: 40px;
+	padding: 30px;
+	font-family: 'Berkshire Swash' ;
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+}
+
+.main-nav {
+	float: right;	
+	font-size: 30px;
+	margin-top: 34.5px;
+	margin-bottom: 34.5px;
+	font-family: poiret one;
+}
+
+a:link {
+	text-decoration: none;
+}
+.maincontainer {
+
+    width: 960px;
+    height: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+
+#mainsection {
+	background-image: url("../images/border.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 650px;
+	height: 960px;
+	float: left;
+	
+}
+
+.about {
+	width: 345px;
+	height: 750px;
+	font-size: 20px;
+	font-family: 'poiret one';
+	text-align: wrap;
+	margin: 0 auto;
+	margin-top: 125px;
+}
+
+h1, h2{
+	font-family: 'Berkshire Swash';
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	float: left;
+	padding-right: 5px;
+}
+
+
+#connect { 
+	
+    width: 270px;
+    height: 270px;
+    padding: 20px;
+    float: right;
+}
+
+
+.logos {
+	height: 70px;
+	width: 70px;
+
+
+}
+
+.tings {
+	height: 170px;
+	width: 170px;
+	padding: 5px;
+	border-radius: 20px;
+
+}
+#footer {
+	text-align: center;
+	height: 100px;
+	width: 100%;
+	font-family: poiret one;
+}
+
