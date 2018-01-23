@@ -17,18 +17,36 @@
 }
 
 #name {
-	width: 250px;
+	width: 400px;
 	height: 40px;
 	padding: 30px;
 	font-family: 'Berkshire Swash' ;
-	font-size: 30px;
+	font-size: 50px;
 	font-weight: bold;
 	float: left;
 }
 
+a:link#namelink {
+	color: black;
+}
+
+a:visited#namelink {
+	color: black;
+}
+
+a:hover#namelink {
+	color: rgb(206, 108, 238);
+	font-size: 100%;
+}
+
+a:active#namelink {
+	color: rgb(206, 108, 238);
+}
+
 .main-nav {
 	float: right;	
-	font-size: 30px;
+	font-size: 20px;
+	padding-right: 50px;
 	margin-top: 34.5px;
 	margin-bottom: 34.5px;
 	font-family: poiret one;
@@ -36,6 +54,20 @@
 
 a:link {
 	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: rgb(206, 108, 238);
+	font-size: 120%;
+}
+
+a:active {
+	color: rgb(206, 108, 238);
 }
 .maincontainer {
 
@@ -47,7 +79,7 @@ a:link {
 }
 
 #mainsection {
-	background-image: url("../images/border.jpg");
+	background-image: url("../images/bordercolor.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 650px;
@@ -77,21 +109,36 @@ img {
 	padding-right: 5px;
 }
 
+.side {
+	background-image: url("../images/framecolor.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 270px;
+	float: right;
+	
+}
 
 #connect { 
 	
-    width: 270px;
-    height: 270px;
-    padding: 20px;
+    width: 250px;
+    height: 250px;
+    padding: 0px;
+    margin-top: 35px;
     float: right;
+
 }
 
-
+.icons {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	position: relative;
+	left: 25px;
+}
 .logos {
-	height: 70px;
-	width: 70px;
-
-
+	height: 50px;
+	width: 50px;
 }
 
 .tings {
@@ -101,6 +148,31 @@ img {
 	border-radius: 20px;
 
 }
+
+img:hover.tings {
+	opacity: 0.5;
+}
+input[type=text] {
+	font-size: 20px;
+	font-family: poiret one;
+}
+
+textarea {
+	font-size: 20px;
+	font-family: poiret one;
+}
+
+input[type=submit] {
+	background-color: white;
+	border: solid black 1px;
+	color: black;
+	padding: 10px;
+	font-family: poiret one;
+	font-size: 20px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
 #footer {
 	text-align: center;
 	height: 100px;
