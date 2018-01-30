@@ -180,3 +180,235 @@ input[type=submit] {
 	font-family: poiret one;
 }
 
+@media only screen and (max-width: 980px) {
+
+	.head{
+		width: 735px;
+	}
+	.maincontainer {
+		width: 735px;
+	}
+
+	#mainsection {
+		width: 487px;
+	}
+
+	.about {
+		width: 258px;
+		margin: 0 auto;
+		margin-top: 75px;
+		font-size: 18px;
+
+	}
+	
+	.tings {
+		width: 115px;
+		height: 115px;
+	}
+	img {
+		width: 100px;
+		height: 100px;
+	}
+
+	input {
+		width: 258px !important;
+	}
+
+	textarea {
+		width: 258px !important;
+		height: 230px !important;
+	}
+	.side {
+		width: 202px;
+	}
+
+	#connect {
+		width: 187px;
+		text-align: center;
+
+	}
+
+	.logos {
+		width: 40px;
+		height: 40px;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	body {
+		display: block;
+	}
+
+	.head{
+		width: 633px;
+	}
+
+	#name {
+		float: left;
+		width: 300px;
+		font-size: 35px;
+	}
+
+	.main-nav {
+		font-size: 18px;
+		float: right;
+	}
+	.maincontainer {
+		width: 633px;
+	}
+
+	#mainsection {
+		width: 633px;
+
+	}
+
+	.about {
+		width: 375px;
+		margin: 0 auto;
+		margin-top: 75px;
+		font-size: 18px;
+
+	}
+	
+	.tings {
+		width: 115px;
+		height: 115px;
+	}
+	img {
+		width: 250px;
+		height: 250px;
+	}
+
+	input {
+		width: 350px !important;
+	}
+
+	textarea {
+		width: 350px !important;
+		height: 230px !important;
+	}
+	.side {
+		width: 270px;
+		position: absolute;
+		top: 1010px;
+		left: 235px;
+	}
+
+	#connect {
+		width: 250px;
+		margin-top: 30px;
+		margin-right: 20px;
+
+	}
+
+	.logos {
+		width: 40px;
+		height: 40px;
+	}
+
+	footer {
+		margin-top: 200px;
+	}
+
+}
+
+@media only screen and (max-width: 640px) {
+
+	body {
+		display: block;
+	}
+
+	
+	.head{
+		width: 480px;
+
+	}
+
+	#name {
+	
+		width: 300px;
+		font-size: 35px;
+		
+	}
+
+	#namelink {
+		position: relative;
+		left: 105px;
+	}
+
+	.main-nav {
+		font-size: 18px;
+		padding: 0px;
+		margin: 0px;
+		text-align: center;
+		position: relative;
+		right: 135px;
+		top: 25px;
+		
+	}
+	.maincontainer {
+		width: 480px;
+	}
+
+	#mainsection {
+		width: 480px;
+
+	}
+
+	.about {
+		width: 280px;
+		margin: 0 auto;
+		margin-top: 75px;
+		font-size: 15px;
+
+
+	}
+	
+	.tings {
+		width: 115px;
+		height: 115px;
+	}
+	img {
+		width: 290px;
+		height: 200px;
+
+	}
+
+	input {
+		width: 260px !important;
+	}
+
+	textarea {
+		width: 260px !important;
+		height: 230px !important;
+	}
+	.side {
+		width: 270px;
+		margin-right: 166px;
+		position: absolute;
+		top: 820px;
+		left: 188px;
+	}
+
+	#connect {
+		width: 250px;
+		margin-top: 30px;
+		margin-right: 20px;
+
+	}
+
+	.logos {
+		width: 40px;
+		height: 40px;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+}
+
+
+
